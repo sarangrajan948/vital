@@ -28,5 +28,7 @@ export class NavbarComponent implements OnInit {
   contact(){
     this.router.navigate(['/contact']);
   }
-  
+  team(){
+    this.router.navigate(['/team']);
+  }
 }

@@ -6,6 +6,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ServicesComponent } from './services/services.component';
+import { TeamComponent } from './team/team.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
 {path:'about',component:AboutComponent},
 {path:'services',component:ServicesComponent},
 {path:'contact',component:ContactComponent},
+{path:'team',component:TeamComponent}
 // { path: '**', component: PageNotFoundComponent },
 
 ];
