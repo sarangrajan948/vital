@@ -25,4 +25,8 @@ export class NavbarComponent implements OnInit {
   services(){
     this.router.navigate(['/services']);
   }
+  contact(){
+    this.router.navigate(['/contact']);
+  }
+  
 }
