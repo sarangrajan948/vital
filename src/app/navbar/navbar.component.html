@@ -1,47 +1,48 @@
-<!-- <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-  <div class="container-fluid px-0">
-    <div class="row w-100">
 
 
-      <div class="col-10">
-        <div class="collapse justify-content-end navbar-collapse" [ngClass]="{ 'show': isShown }"
-          id="navbarTogglerDemo03">
-          <ul class="navbar-nav mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#" (click)="isShown = false">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" (click)="isShown = false">Book Me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-2">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation" (click)="isShown = !isShown" >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
+
+<nav class="navbar navbar-expand-md   py-2">
+  <a class="navbar-brand logo" [routerLink]="'.'">VitaL</a>
+
+ 
+  <label class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+    <i class="fas fa-bars"></i>
+  </label>
+
+
+  <div [ngbCollapse]="isMenuCollapsed" class="collapse justify-content-end navbar-collapse">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/about'" (click)="isMenuCollapsed = true">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/services'" (click)="isMenuCollapsed = true">Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/team'" (click)="isMenuCollapsed = true">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/contact'" (click)="isMenuCollapsed = true">Contact Us</a>
+      </li>
+    </ul>
   </div>
-</nav> -->
+</nav>
 
 
 
 
-<nav>
+
+
+<!-- <nav>
   <input type="checkbox" id="check">
   <label for="check" class="checkbtn">
     <i class="fas fa-bars"></i>
   </label>
   <label class="logo">VitaL</label>
   <ul>
-    <!-- class="active collapse" -->
     <li><a href="#"><img src="assets/img/home.png"></a></li>
     <li><a (click)="about()">About</a></li>
     <li><a (click)="services()">Services</a></li>
@@ -49,4 +50,4 @@
     <li><a (click)="contact()">Contact Us</a></li>
     
   </ul>
-</nav>
+</nav> -->

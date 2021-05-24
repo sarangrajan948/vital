@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
+  public isMenuCollapsed = true;  
   // isShowDiv = false;
   // showdiv=true;
 
@@ -15,20 +16,16 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
   }
-  // check(){
-  //   this.isShowDiv = this.isShowDiv;
+  // about(){
+  //   this.router.navigate(['/about']);
   // }
-  about(){
-    this.router.navigate(['/about']);
-    // this.isShowDiv = !this.isShowDiv;
-  }
-  services(){
-    this.router.navigate(['/services']);
-  }
-  contact(){
-    this.router.navigate(['/contact']);
-  }
-  team(){
-    this.router.navigate(['/team']);
-  }
+  // services(){
+  //   this.router.navigate(['/services']);
+  // }
+  // contact(){
+  //   this.router.navigate(['/contact']);
+  // }
+  // team(){
+  //   this.router.navigate(['/team']);
+  // }
 }
