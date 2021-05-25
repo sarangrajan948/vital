@@ -15,6 +15,10 @@
   .container{
       margin-top: 70px;
   }
+  .boxes {
+      padding-bottom: 5rem;
+      border-bottom: 1px solid rgb(167, 159, 159);
+  }
   .side-heading{
       color: #fc4e48;
       font-size: 50px;
@@ -26,17 +30,73 @@
       font-weight: 500;
       padding-top: 30px;
   }
+  .mail{
+      margin-top: 50px;
+      font-size: 20px;
+  }
+  .mail p span{
+      color: #fc4e48;
+  }
+  .call{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.call p span{
+    color: #fc4e48;
+}
   .rigth-side{
       background: rgba(238, 236, 236, 0.952);
       padding: 20px;
       
   }
+  .form-group{
+      padding-bottom: 15px;
+  }
   .buttons{
+    padding-top: 20px;
       color: white;
   }
   .btn{
       border-radius: 30px;
       padding: 8px 20px;
       background: #fc4e48;
-      color: white;
+      color:#ffff;
   }
+  .location{
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .location .location-head{
+      font-size: 30px;
+      font-weight: 500;
+    //   border-bottom: 2px solid black;
+  }
+  h4{
+    //   padding-left: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .box{
+      padding: 20px;
+  }
+  .flex{
+      display: flex;
+      padding-bottom: 5px;
+      text-align: justify;
+  }
+  .icons{
+      font-size: 30px;
+      padding: 0 15px;
+  }
+  .phno{
+      padding-top: 5px;
+  }
+//  .one{
+//      display: flex;
+//  }
+//  .two{
+//     display: flex;
+// }
+// .three{
+//     display: flex;
+// }

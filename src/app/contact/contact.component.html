@@ -3,7 +3,7 @@
     <div class="contact-q">We are always happy to talk with you.</div>
   </div>
   <div class="container">
-      <div class="row">
+      <div class="boxes row">
           <div class="col-lg-6">
               <div class="side-heading">
                   Let's talk
@@ -12,6 +12,12 @@
                 Let's discuss your project!<br>
                 Please, provide us with a brief description of what you already have and what you are going to achieve
               </div>
+              <div class="mail">
+                  <p>Mail us <span>infovital@gmail.com</span></p>
+              </div>
+              <div class="call">
+                <p>Call Us <span>+000-000-000</span></p>
+            </div>
           </div>
           <div class="rigth-side col-lg-6">
                 <form>
@@ -30,14 +36,14 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="form-group">
+                        <!-- <div class="form-group"> -->
                             <label>E-Mail</label>
-                            <input class="form-control" type="text">
-                        </div>
+                            <input class="form-control" type="text" placeholder="your email address">
+                        <!-- </div> -->
                     </div>
                     <div class="form-group">
                         <label>Mobile Phone</label>
-                        <input class="form-control" type="text">
+                        <input class="form-control" type="text" placeholder="eg : 9876543210">
                     </div>
                     <div class="form-group">
                         <label>Brief about the project</label>
@@ -45,24 +51,51 @@
                     </div>
                     <div class="form-group">
                         <label>Attach File</label>
-                        <input class="form-control" type="filr" class="form-control">
+                        <input class="form-control" type="file" class="form-control">
                     </div>
                     <div class="buttons">
                         <a  class="btn">Send</a>
                     </div>
                 </form>                
-
-
-            <!-- <form [formGroup]="serviceform" (ngSubmit)="onSubmit()">
-
-                <div class="form-group form-content">
-                  <label>Service Code</label>
-                  <input type="text" class="form-control" formControlName="service_code"
-                    [ngClass]="{ 'is-invalid': submitted && f.service_code.errors }">
-                  <div *ngIf="submitted && f.service_code.errors" class="invalid-feedback">
-                    <div *ngIf="f.service_code.errors.required">Service Code is required</div>
-                  </div>
-                </div> -->
           </div>
+      </div>
+      <div class="location">
+          <div class="location-head"><u>Our Locations</u></div>
+        <div class="row">
+            <div class="box col-lg-4">
+                <h4>UAE  Qatar</h4>
+                <div class="flex">
+                    <div class="icons"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="address">Vital Innovation , Qatar</div>
+                </div>
+                <div class="flex">
+                    <div class="icons"><i class="fas fa-phone-alt"></i></div>
+                    <div class="phno">+910000000000</div>
+                </div>
+                
+            </div>
+            <div class="box col-lg-4">
+                <h4>India  Kerala</h4>
+                <div class="flex">
+                    <div class="icons"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="address">Vital Innovation, 5th floor, iv9 retaurant, Malaparamba, Kozhikode, Kerala</div>
+                </div>
+                <div class="flex">
+                    <div class="icons"><i class="fas fa-phone-alt"></i></div>
+                    <div class="phno">+910000000000</div>
+                </div>
+            </div>
+            <div class="box col-lg-4">
+                <h4>India Chennai</h4>
+                <div class="flex">
+                    <div class="icons"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="address">Vital Innovation, Chennai</div>
+                </div>
+                <div class="flex">
+                    <div class="icons"><i class="fas fa-phone-alt"></i></div>
+                    <div class="phno">+910000000000</div>
+                </div>
+            </div>
+        </div>
       </div>
   </div>
