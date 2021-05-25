@@ -384,6 +384,10 @@ body {
   .counter-up .content .box {
     width: 100%;
   }
+  .process-content p {
+    text-align: center;
+  }
+  
 }
 
 @media screen and (max-width: 500px) {
@@ -411,4 +415,16 @@ body {
 .domain-para {
   padding-top: 15px;
   text-align: left;
+}
+@media screen and (max-width: 580px) {
+  .domain-content {
+    padding-left: 25px;
+    text-align: center;
+    border:none
+  }
+  .domain-para {
+   
+    text-align: center;
+  }
+  
 }
